@@ -3,16 +3,18 @@ import { Helmet } from 'react-helmet';
 
 const testimonials = [
     {
-        name: 'Kirat Kaur',
-        role: 'Developer',
+        name: 'Muhammad Shan',
+        role: 'Full Stack Developer',
         content:
             'A resume builder website is a web-based tool that allows users to create and customize a professional resume to their desired specifications. These websites typically provide templates for creating a resume.',
+        avatar:
+            'https://avatars.githubusercontent.com/u/150339563?s=400&u=59d6ed76ce41ccf8cfd2662a1305d650aea9a904&v=4',
     }
 ];
 
 
 function TestimonialCard(props) {
-    const { name, role, content} = props;
+    const { name, role, content, avatar } = props;
     return (
         <Flex
             boxShadow={'lg'}
@@ -70,7 +72,15 @@ function TestimonialCard(props) {
                         - {role}
                     </chakra.span>
                 </chakra.p>
-           
+            </Flex>
+            <Avatar
+                src={avatar}
+                height={'80px'}
+                width={'80px'}
+                alignSelf={'center'}
+                m={{ base: '0 0 35px 0', md: '0 0 0 50px' }}
+            />
+        </Flex>
     );
 }
 
