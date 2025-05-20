@@ -7,14 +7,12 @@ const testimonials = [
         role: 'Developer',
         content:
             'A resume builder website is a web-based tool that allows users to create and customize a professional resume to their desired specifications. These websites typically provide templates for creating a resume.',
-        avatar:
-            'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.veryicon.com%2Ficons%2Fmiscellaneous%2Ftwo-color-icon-library%2Fuser-286.html&psig=AOvVaw21mputGzxsoBWdigRZv74Q&ust=1747809957065000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJia3M-5sY0DFQAAAAAdAAAAABAL',
     }
 ];
 
 
 function TestimonialCard(props) {
-    const { name, role, content, avatar } = props;
+    const { name, role, content} = props;
     return (
         <Flex
             boxShadow={'lg'}
@@ -72,15 +70,7 @@ function TestimonialCard(props) {
                         - {role}
                     </chakra.span>
                 </chakra.p>
-            </Flex>
-            <Avatar
-                src={avatar}
-                height={'80px'}
-                width={'80px'}
-                alignSelf={'center'}
-                m={{ base: '0 0 35px 0', md: '0 0 0 50px' }}
-            />
-        </Flex>
+           
     );
 }
 
