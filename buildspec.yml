@@ -9,7 +9,7 @@ phases:
       - npm install
   build:
     commands:
-      - echo Build complete.
+      - echo Build is complete.
 artifacts:
   files:
     - '**/*'
