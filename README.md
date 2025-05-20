@@ -13,6 +13,8 @@ https://resume-builder-by-shan.netlify.app/
 ```
 
 ## Features
+
+
 - User-friendly interface for creating and editing resumes
 - Templates to choose from for different job industries
 - PDF export option for final resume
