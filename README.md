@@ -12,7 +12,7 @@ Welcome to our Resume Builder Website! Our website allows users to easily create
 https://resume-builder-by-shan.netlify.app/
 ```
 
-## Features
+## Features of the website
 
 
 - User-friendly interface for creating and editing resumes
