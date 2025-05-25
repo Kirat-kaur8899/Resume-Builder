@@ -21,7 +21,7 @@ https://resume-builder-by-shan.netlify.app/
 - Dark mode for easy viewing
 - Image upload for profile picture
 
-## Screenshots
+## Screenshot
 Here are some screenshots of the project to give you an idea of its features and functionality:
 
 ###### Home Page
